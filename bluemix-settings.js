@@ -50,6 +50,11 @@ var settings = module.exports = {
     // Move the admin UI
     httpAdminRoot: '/red',
 
+    // Add 20170425
+    httpAdminAuth: {user:"amiji1720",pass:"8f2219b4cca061d4400d95d0082b96ef"},
+    httpNodeAuth: {user:"amiji1720",pass:"8f2219b4cca061d4400d95d0082b96ef"},
+
+
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
 
